@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "close tabs",
+  "description": "This extension close unwanted tabs",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Click here!"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
